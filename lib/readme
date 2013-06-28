@@ -1,0 +1,22 @@
+El directorio  también puede ser descargado de: https://github.com/LaurentGomila/SFML
+Si el directorio está en "~/local/renekton/lib/sfml/"
+
+Como vamos a usar cmake, lo instalamos:
+# apt-get install cmake
+
+Instalamos las dependencias:
+# apt-get install libpthread-stubs0-dev
+# apt-get install libgl1-mesa-dev
+# apt-get install libx11-dev
+# apt-get install libxrandr-dev
+# apt-get install libfreetype6-dev
+# apt-get install libglew1.5-dev
+# apt-get install libjpeg8-dev
+# apt-get install libsndfile1-dev
+# apt-get install libopenal-dev
+
+~/local/renekton/lib/sfml/ $ cmake -i (y le damos enter a todo)
+~/local/renekton/lib/sfml/ $ make
+~/local/renekton/lib/sfml/ # make install
+
+~/local/renekton/lib/sfml/lib/ # ldconfig -v 
