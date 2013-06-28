@@ -1,6 +1,6 @@
 all: 	
-	g++ -c game.cpp -I /home/<your_user_name>/local/sfml2/include
-	g++ game.o -o pong -L /home/<your_user_name>/local/sfml2/lib -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system
+	g++ -c game.cpp -I /home/nano/local/renekton/lib/sfml/include
+	g++ game.o -o pong -L /home/nano/local/renekton/lib/sfml/lib -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system
 	./pong
 clean:
 	

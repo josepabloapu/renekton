@@ -40,20 +40,20 @@ int main()
 	//player 1 properties
 	int p1Len = 80;
 	sf::RectangleShape player1(sf::Vector2f(10, p1Len));
-	player1.setFillColor(sf::Color(0, 255, 255));
+	player1.setFillColor(sf::Color(0, 0, 255));
 	player1.setPosition(0, RENDERHEIGHT / 2 - player1.getSize().y / 2);
 	int player1Score = 0;
 
 	//player 2 properties
 	int p2Len = 80;
 	sf::RectangleShape player2(sf::Vector2f(10, p2Len));
-	player2.setFillColor(sf::Color(255, 0, 255));
+	player2.setFillColor(sf::Color(255, 0, 0));
 	player2.setPosition(RENDERWIDTH - player2.getSize().x, RENDERHEIGHT / 2 - player2.getSize().y / 2);
 	int player2Score = 0;
 
 	//ball properties
 	sf::CircleShape ball(5, 25);
-	ball.setFillColor(sf::Color(255, 255, 0));
+	ball.setFillColor(sf::Color(255,255,255));
 	ball.setPosition(RENDERWIDTH / 2 - ball.getRadius(), RENDERHEIGHT / 2 - ball.getRadius());
 	float BALLSPEED = 2;
 	float ballVelX = -BALLSPEED, ballVelY = -BALLSPEED;
