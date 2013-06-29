@@ -4,32 +4,32 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CircleShape.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Color.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/ConvexShape.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Font.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/GLCheck.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Image.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/ImageLoader.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RectangleShape.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderStates.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTarget.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTexture.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImpl.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplDefault.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplFBO.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderWindow.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Shader.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Shape.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Sprite.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Text.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Texture.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/TextureSaver.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Transform.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Transformable.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Vertex.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/VertexArray.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/View.cpp" "/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CircleShape.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Color.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/ConvexShape.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Font.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/GLCheck.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Image.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/ImageLoader.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RectangleShape.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderStates.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTarget.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTexture.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImpl.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplDefault.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplFBO.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderWindow.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Shader.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Shape.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Sprite.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Text.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Texture.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/TextureSaver.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Transform.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Transformable.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Vertex.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/VertexArray.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/View.cpp" "/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -41,15 +41,15 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Pairs of files generated by the same build rule.
 SET(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/nano/local/renekton/lib/sfml/lib/libsfml-graphics.so" "/home/nano/local/renekton/lib/sfml/lib/libsfml-graphics.so.2.0"
-  "/home/nano/local/renekton/lib/sfml/lib/libsfml-graphics.so.2" "/home/nano/local/renekton/lib/sfml/lib/libsfml-graphics.so.2.0"
+  "/home/jose/local/renekton/lib/sfml/lib/libsfml-graphics.so" "/home/jose/local/renekton/lib/sfml/lib/libsfml-graphics.so.2.0"
+  "/home/jose/local/renekton/lib/sfml/lib/libsfml-graphics.so.2" "/home/jose/local/renekton/lib/sfml/lib/libsfml-graphics.so.2.0"
   )
 
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/nano/local/renekton/lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
-  "/home/nano/local/renekton/lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
+  "/home/jose/local/renekton/lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

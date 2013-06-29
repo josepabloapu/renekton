@@ -62,7 +62,7 @@ int main()
 	
 	//score text
 	sf::Font font;
-	font.loadFromFile("SF Atarian System.ttf");
+	font.loadFromFile("/usr/share/fonts/truetype/ttf-liberation/LiberationSerif-Bold.ttf");
 	sf::Text score1("0", font, 80);
 	score1.setPosition(RENDERWIDTH / 4, 0);
 	sf::Text score2("0", font, 80);

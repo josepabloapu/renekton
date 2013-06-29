@@ -1,4 +1,4 @@
-# Install script for directory: /home/nano/local/renekton/lib/sfml/src/SFML
+# Install script for directory: /home/jose/local/renekton/lib/sfml/src/SFML
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/nano/local/renekton/lib/sfml/src/SFML/System/cmake_install.cmake")
-  INCLUDE("/home/nano/local/renekton/lib/sfml/src/SFML/Window/cmake_install.cmake")
-  INCLUDE("/home/nano/local/renekton/lib/sfml/src/SFML/Network/cmake_install.cmake")
-  INCLUDE("/home/nano/local/renekton/lib/sfml/src/SFML/Graphics/cmake_install.cmake")
-  INCLUDE("/home/nano/local/renekton/lib/sfml/src/SFML/Audio/cmake_install.cmake")
+  INCLUDE("/home/jose/local/renekton/lib/sfml/src/SFML/System/cmake_install.cmake")
+  INCLUDE("/home/jose/local/renekton/lib/sfml/src/SFML/Window/cmake_install.cmake")
+  INCLUDE("/home/jose/local/renekton/lib/sfml/src/SFML/Network/cmake_install.cmake")
+  INCLUDE("/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/cmake_install.cmake")
+  INCLUDE("/home/jose/local/renekton/lib/sfml/src/SFML/Audio/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

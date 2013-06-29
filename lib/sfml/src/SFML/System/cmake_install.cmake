@@ -1,4 +1,4 @@
-# Install script for directory: /home/nano/local/renekton/lib/sfml/src/SFML/System
+# Install script for directory: /home/jose/local/renekton/lib/sfml/src/SFML/System
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,9 +46,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "bin")
     ENDIF()
   ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/nano/local/renekton/lib/sfml/lib/libsfml-system.so.2.0"
-    "/home/nano/local/renekton/lib/sfml/lib/libsfml-system.so.2"
-    "/home/nano/local/renekton/lib/sfml/lib/libsfml-system.so"
+    "/home/jose/local/renekton/lib/sfml/lib/libsfml-system.so.2.0"
+    "/home/jose/local/renekton/lib/sfml/lib/libsfml-system.so.2"
+    "/home/jose/local/renekton/lib/sfml/lib/libsfml-system.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-system.so.2.0"

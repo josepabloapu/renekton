@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nano/local/renekton/lib/sfml
+CMAKE_SOURCE_DIR = /home/jose/local/renekton/lib/sfml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nano/local/renekton/lib/sfml
+CMAKE_BINARY_DIR = /home/jose/local/renekton/lib/sfml
 
 # Include any dependencies generated for this target.
 include src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend.make
@@ -51,17 +51,17 @@ include src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o: src/SFML/Graphics/Color.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Color.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Color.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Color.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Color.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Color.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Color.cpp > CMakeFiles/sfml-graphics.dir/Color.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Color.cpp > CMakeFiles/sfml-graphics.dir/Color.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Color.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Color.cpp -o CMakeFiles/sfml-graphics.dir/Color.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Color.cpp -o CMakeFiles/sfml-graphics.dir/Color.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o.requires
@@ -74,17 +74,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o.provides.build: src/S
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o: src/SFML/Graphics/Font.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Font.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Font.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Font.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Font.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Font.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Font.cpp > CMakeFiles/sfml-graphics.dir/Font.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Font.cpp > CMakeFiles/sfml-graphics.dir/Font.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Font.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Font.cpp -o CMakeFiles/sfml-graphics.dir/Font.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Font.cpp -o CMakeFiles/sfml-graphics.dir/Font.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o.requires
@@ -97,17 +97,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o.provides.build: src/SF
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o: src/SFML/Graphics/GLCheck.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/GLCheck.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/GLCheck.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/GLCheck.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/GLCheck.cpp > CMakeFiles/sfml-graphics.dir/GLCheck.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/GLCheck.cpp > CMakeFiles/sfml-graphics.dir/GLCheck.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/GLCheck.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/GLCheck.cpp -o CMakeFiles/sfml-graphics.dir/GLCheck.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/GLCheck.cpp -o CMakeFiles/sfml-graphics.dir/GLCheck.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o.requires
@@ -120,17 +120,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o.provides.build: src
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o: src/SFML/Graphics/Image.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Image.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Image.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Image.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Image.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Image.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Image.cpp > CMakeFiles/sfml-graphics.dir/Image.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Image.cpp > CMakeFiles/sfml-graphics.dir/Image.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Image.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Image.cpp -o CMakeFiles/sfml-graphics.dir/Image.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Image.cpp -o CMakeFiles/sfml-graphics.dir/Image.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o.requires
@@ -143,17 +143,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o.provides.build: src/S
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o: src/SFML/Graphics/ImageLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/ImageLoader.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/ImageLoader.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -fno-strict-aliasing -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/ImageLoader.cpp > CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -fno-strict-aliasing -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/ImageLoader.cpp > CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -fno-strict-aliasing -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/ImageLoader.cpp -o CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -fno-strict-aliasing -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/ImageLoader.cpp -o CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o.requires
@@ -166,17 +166,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o.provides.build:
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o: src/SFML/Graphics/RenderStates.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderStates.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderStates.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderStates.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderStates.cpp > CMakeFiles/sfml-graphics.dir/RenderStates.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderStates.cpp > CMakeFiles/sfml-graphics.dir/RenderStates.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderStates.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderStates.cpp -o CMakeFiles/sfml-graphics.dir/RenderStates.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderStates.cpp -o CMakeFiles/sfml-graphics.dir/RenderStates.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o.requires
@@ -189,17 +189,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o.provides.build
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o: src/SFML/Graphics/RenderTexture.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTexture.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTexture.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTexture.cpp > CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTexture.cpp > CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTexture.cpp -o CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTexture.cpp -o CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o.requires
@@ -212,17 +212,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o.provides.buil
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o: src/SFML/Graphics/RenderTarget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTarget.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTarget.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTarget.cpp > CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTarget.cpp > CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTarget.cpp -o CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTarget.cpp -o CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o.requires
@@ -235,17 +235,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o.provides.build
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o: src/SFML/Graphics/RenderWindow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderWindow.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderWindow.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderWindow.cpp > CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderWindow.cpp > CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderWindow.cpp -o CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderWindow.cpp -o CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o.requires
@@ -258,17 +258,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o.provides.build
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o: src/SFML/Graphics/Shader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Shader.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Shader.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Shader.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Shader.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Shader.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Shader.cpp > CMakeFiles/sfml-graphics.dir/Shader.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Shader.cpp > CMakeFiles/sfml-graphics.dir/Shader.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Shader.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Shader.cpp -o CMakeFiles/sfml-graphics.dir/Shader.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Shader.cpp -o CMakeFiles/sfml-graphics.dir/Shader.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o.requires
@@ -281,17 +281,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o.provides.build: src/
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o: src/SFML/Graphics/Texture.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Texture.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Texture.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Texture.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Texture.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Texture.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Texture.cpp > CMakeFiles/sfml-graphics.dir/Texture.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Texture.cpp > CMakeFiles/sfml-graphics.dir/Texture.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Texture.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Texture.cpp -o CMakeFiles/sfml-graphics.dir/Texture.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Texture.cpp -o CMakeFiles/sfml-graphics.dir/Texture.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o.requires
@@ -304,17 +304,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o.provides.build: src
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o: src/SFML/Graphics/TextureSaver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/TextureSaver.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/TextureSaver.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/TextureSaver.cpp > CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/TextureSaver.cpp > CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/TextureSaver.cpp -o CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/TextureSaver.cpp -o CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o.requires
@@ -327,17 +327,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o.provides.build
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o: src/SFML/Graphics/Transform.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Transform.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Transform.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Transform.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Transform.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Transform.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Transform.cpp > CMakeFiles/sfml-graphics.dir/Transform.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Transform.cpp > CMakeFiles/sfml-graphics.dir/Transform.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Transform.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Transform.cpp -o CMakeFiles/sfml-graphics.dir/Transform.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Transform.cpp -o CMakeFiles/sfml-graphics.dir/Transform.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o.requires
@@ -350,17 +350,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o.provides.build: s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o: src/SFML/Graphics/Transformable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Transformable.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Transformable.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Transformable.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Transformable.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Transformable.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Transformable.cpp > CMakeFiles/sfml-graphics.dir/Transformable.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Transformable.cpp > CMakeFiles/sfml-graphics.dir/Transformable.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Transformable.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Transformable.cpp -o CMakeFiles/sfml-graphics.dir/Transformable.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Transformable.cpp -o CMakeFiles/sfml-graphics.dir/Transformable.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o.requires
@@ -373,17 +373,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o.provides.buil
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o: src/SFML/Graphics/View.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/View.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/View.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/View.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/View.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/View.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/View.cpp > CMakeFiles/sfml-graphics.dir/View.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/View.cpp > CMakeFiles/sfml-graphics.dir/View.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/View.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/View.cpp -o CMakeFiles/sfml-graphics.dir/View.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/View.cpp -o CMakeFiles/sfml-graphics.dir/View.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o.requires
@@ -396,17 +396,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o.provides.build: src/SF
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o: src/SFML/Graphics/Vertex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Vertex.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Vertex.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Vertex.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Vertex.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Vertex.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Vertex.cpp > CMakeFiles/sfml-graphics.dir/Vertex.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Vertex.cpp > CMakeFiles/sfml-graphics.dir/Vertex.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Vertex.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Vertex.cpp -o CMakeFiles/sfml-graphics.dir/Vertex.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Vertex.cpp -o CMakeFiles/sfml-graphics.dir/Vertex.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o.requires
@@ -419,17 +419,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o.provides.build: src/
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o: src/SFML/Graphics/Shape.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Shape.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Shape.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Shape.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Shape.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Shape.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Shape.cpp > CMakeFiles/sfml-graphics.dir/Shape.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Shape.cpp > CMakeFiles/sfml-graphics.dir/Shape.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Shape.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Shape.cpp -o CMakeFiles/sfml-graphics.dir/Shape.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Shape.cpp -o CMakeFiles/sfml-graphics.dir/Shape.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o.requires
@@ -442,17 +442,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o.provides.build: src/S
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o: src/SFML/Graphics/CircleShape.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CircleShape.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CircleShape.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CircleShape.cpp > CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CircleShape.cpp > CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CircleShape.cpp -o CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CircleShape.cpp -o CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o.requires
@@ -465,17 +465,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o.provides.build:
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o: src/SFML/Graphics/RectangleShape.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RectangleShape.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RectangleShape.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RectangleShape.cpp > CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RectangleShape.cpp > CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RectangleShape.cpp -o CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RectangleShape.cpp -o CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o.requires
@@ -488,17 +488,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o.provides.bui
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o: src/SFML/Graphics/ConvexShape.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/ConvexShape.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/ConvexShape.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/ConvexShape.cpp > CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/ConvexShape.cpp > CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/ConvexShape.cpp -o CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/ConvexShape.cpp -o CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o.requires
@@ -511,17 +511,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o.provides.build:
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o: src/SFML/Graphics/Sprite.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Sprite.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Sprite.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Sprite.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Sprite.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Sprite.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Sprite.cpp > CMakeFiles/sfml-graphics.dir/Sprite.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Sprite.cpp > CMakeFiles/sfml-graphics.dir/Sprite.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Sprite.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Sprite.cpp -o CMakeFiles/sfml-graphics.dir/Sprite.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Sprite.cpp -o CMakeFiles/sfml-graphics.dir/Sprite.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o.requires
@@ -534,17 +534,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o.provides.build: src/
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o: src/SFML/Graphics/Text.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Text.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Text.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/Text.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Text.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Text.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Text.cpp > CMakeFiles/sfml-graphics.dir/Text.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Text.cpp > CMakeFiles/sfml-graphics.dir/Text.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Text.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/Text.cpp -o CMakeFiles/sfml-graphics.dir/Text.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/Text.cpp -o CMakeFiles/sfml-graphics.dir/Text.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o.requires
@@ -557,17 +557,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o.provides.build: src/SF
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o: src/SFML/Graphics/VertexArray.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/VertexArray.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/VertexArray.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/VertexArray.cpp > CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/VertexArray.cpp > CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/VertexArray.cpp -o CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/VertexArray.cpp -o CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o.requires
@@ -580,17 +580,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o.provides.build:
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o: src/SFML/Graphics/RenderTextureImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImpl.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImpl.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImpl.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImpl.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImpl.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImpl.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o.requires
@@ -603,17 +603,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o.provides.
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o: src/SFML/Graphics/RenderTextureImplFBO.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplFBO.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplFBO.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplFBO.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplFBO.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplFBO.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplFBO.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o.requires
@@ -626,17 +626,17 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o.provid
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o: src/SFML/Graphics/RenderTextureImplDefault.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplDefault.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplDefault.cpp
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplDefault.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplDefault.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplDefault.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/RenderTextureImplDefault.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.s
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o.requires:
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o.requires
@@ -712,15 +712,13 @@ lib/libsfml-graphics.so.2.0: /usr/lib/x86_64-linux-gnu/libfreetype.so
 lib/libsfml-graphics.so.2.0: /usr/lib/x86_64-linux-gnu/libGLEW.so
 lib/libsfml-graphics.so.2.0: /usr/lib/x86_64-linux-gnu/libjpeg.so
 lib/libsfml-graphics.so.2.0: /usr/lib/x86_64-linux-gnu/libGL.so
-lib/libsfml-graphics.so.2.0: /usr/lib/x86_64-linux-gnu/libSM.so
-lib/libsfml-graphics.so.2.0: /usr/lib/x86_64-linux-gnu/libICE.so
 lib/libsfml-graphics.so.2.0: /usr/lib/x86_64-linux-gnu/libX11.so
 lib/libsfml-graphics.so.2.0: /usr/lib/x86_64-linux-gnu/libXext.so
 lib/libsfml-graphics.so.2.0: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib/libsfml-graphics.so.2.0: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib/libsfml-graphics.so"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-graphics.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-graphics.so.2.0 ../../../lib/libsfml-graphics.so.2 ../../../lib/libsfml-graphics.so
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-graphics.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-graphics.so.2.0 ../../../lib/libsfml-graphics.so.2 ../../../lib/libsfml-graphics.so
 
 lib/libsfml-graphics.so.2: lib/libsfml-graphics.so.2.0
 
@@ -759,10 +757,10 @@ src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/requires: src/SFML/Graphics/CMake
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/requires
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/clean:
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Graphics && $(CMAKE_COMMAND) -P CMakeFiles/sfml-graphics.dir/cmake_clean.cmake
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Graphics && $(CMAKE_COMMAND) -P CMakeFiles/sfml-graphics.dir/cmake_clean.cmake
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/clean
 
 src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend:
-	cd /home/nano/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nano/local/renekton/lib/sfml /home/nano/local/renekton/lib/sfml/src/SFML/Graphics /home/nano/local/renekton/lib/sfml /home/nano/local/renekton/lib/sfml/src/SFML/Graphics /home/nano/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jose/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/local/renekton/lib/sfml /home/jose/local/renekton/lib/sfml/src/SFML/Graphics /home/jose/local/renekton/lib/sfml /home/jose/local/renekton/lib/sfml/src/SFML/Graphics /home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend
 

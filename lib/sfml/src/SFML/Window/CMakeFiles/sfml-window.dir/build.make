@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nano/local/renekton/lib/sfml
+CMAKE_SOURCE_DIR = /home/jose/local/renekton/lib/sfml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nano/local/renekton/lib/sfml
+CMAKE_BINARY_DIR = /home/jose/local/renekton/lib/sfml
 
 # Include any dependencies generated for this target.
 include src/SFML/Window/CMakeFiles/sfml-window.dir/depend.make
@@ -51,17 +51,17 @@ include src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o: src/SFML/Window/Context.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Context.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Context.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Context.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Context.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Context.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Context.cpp > CMakeFiles/sfml-window.dir/Context.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Context.cpp > CMakeFiles/sfml-window.dir/Context.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Context.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Context.cpp -o CMakeFiles/sfml-window.dir/Context.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Context.cpp -o CMakeFiles/sfml-window.dir/Context.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o.requires
@@ -74,17 +74,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o.provides.build: src/SFM
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o: src/SFML/Window/GlContext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/GlContext.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/GlContext.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/GlContext.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/GlContext.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/GlContext.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/GlContext.cpp > CMakeFiles/sfml-window.dir/GlContext.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/GlContext.cpp > CMakeFiles/sfml-window.dir/GlContext.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/GlContext.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/GlContext.cpp -o CMakeFiles/sfml-window.dir/GlContext.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/GlContext.cpp -o CMakeFiles/sfml-window.dir/GlContext.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o.requires
@@ -97,17 +97,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o.provides.build: src/S
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o: src/SFML/Window/GlResource.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/GlResource.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/GlResource.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/GlResource.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/GlResource.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/GlResource.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/GlResource.cpp > CMakeFiles/sfml-window.dir/GlResource.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/GlResource.cpp > CMakeFiles/sfml-window.dir/GlResource.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/GlResource.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/GlResource.cpp -o CMakeFiles/sfml-window.dir/GlResource.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/GlResource.cpp -o CMakeFiles/sfml-window.dir/GlResource.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o.requires
@@ -120,17 +120,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o.provides.build: src/
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o: src/SFML/Window/Joystick.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Joystick.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Joystick.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Joystick.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Joystick.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Joystick.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Joystick.cpp > CMakeFiles/sfml-window.dir/Joystick.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Joystick.cpp > CMakeFiles/sfml-window.dir/Joystick.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Joystick.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Joystick.cpp -o CMakeFiles/sfml-window.dir/Joystick.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Joystick.cpp -o CMakeFiles/sfml-window.dir/Joystick.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o.requires
@@ -143,17 +143,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o.provides.build: src/SF
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o: src/SFML/Window/JoystickManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/JoystickManager.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/JoystickManager.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/JoystickManager.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/JoystickManager.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/JoystickManager.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/JoystickManager.cpp > CMakeFiles/sfml-window.dir/JoystickManager.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/JoystickManager.cpp > CMakeFiles/sfml-window.dir/JoystickManager.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/JoystickManager.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/JoystickManager.cpp -o CMakeFiles/sfml-window.dir/JoystickManager.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/JoystickManager.cpp -o CMakeFiles/sfml-window.dir/JoystickManager.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o.requires
@@ -166,17 +166,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o.provides.build:
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o: src/SFML/Window/Keyboard.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Keyboard.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Keyboard.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Keyboard.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Keyboard.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Keyboard.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Keyboard.cpp > CMakeFiles/sfml-window.dir/Keyboard.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Keyboard.cpp > CMakeFiles/sfml-window.dir/Keyboard.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Keyboard.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Keyboard.cpp -o CMakeFiles/sfml-window.dir/Keyboard.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Keyboard.cpp -o CMakeFiles/sfml-window.dir/Keyboard.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o.requires
@@ -189,17 +189,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o.provides.build: src/SF
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o: src/SFML/Window/Mouse.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Mouse.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Mouse.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Mouse.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Mouse.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Mouse.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Mouse.cpp > CMakeFiles/sfml-window.dir/Mouse.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Mouse.cpp > CMakeFiles/sfml-window.dir/Mouse.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Mouse.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Mouse.cpp -o CMakeFiles/sfml-window.dir/Mouse.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Mouse.cpp -o CMakeFiles/sfml-window.dir/Mouse.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o.requires
@@ -212,17 +212,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o.provides.build: src/SFML/
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o: src/SFML/Window/VideoMode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/VideoMode.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/VideoMode.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/VideoMode.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/VideoMode.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/VideoMode.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/VideoMode.cpp > CMakeFiles/sfml-window.dir/VideoMode.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/VideoMode.cpp > CMakeFiles/sfml-window.dir/VideoMode.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/VideoMode.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/VideoMode.cpp -o CMakeFiles/sfml-window.dir/VideoMode.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/VideoMode.cpp -o CMakeFiles/sfml-window.dir/VideoMode.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o.requires
@@ -235,17 +235,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o.provides.build: src/S
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o: src/SFML/Window/Window.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Window.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Window.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Window.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Window.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Window.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Window.cpp > CMakeFiles/sfml-window.dir/Window.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Window.cpp > CMakeFiles/sfml-window.dir/Window.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Window.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Window.cpp -o CMakeFiles/sfml-window.dir/Window.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Window.cpp -o CMakeFiles/sfml-window.dir/Window.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o.requires
@@ -258,17 +258,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o.provides.build: src/SFML
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o: src/SFML/Window/WindowImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/WindowImpl.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/WindowImpl.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/WindowImpl.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/WindowImpl.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/WindowImpl.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/WindowImpl.cpp > CMakeFiles/sfml-window.dir/WindowImpl.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/WindowImpl.cpp > CMakeFiles/sfml-window.dir/WindowImpl.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/WindowImpl.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/WindowImpl.cpp -o CMakeFiles/sfml-window.dir/WindowImpl.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/WindowImpl.cpp -o CMakeFiles/sfml-window.dir/WindowImpl.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o.requires
@@ -281,17 +281,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o.provides.build: src/
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/Display.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/Display.cpp.o: src/SFML/Window/Linux/Display.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/Display.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/Display.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/Display.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/Display.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/Display.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/Display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Linux/Display.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/Display.cpp > CMakeFiles/sfml-window.dir/Linux/Display.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/Display.cpp > CMakeFiles/sfml-window.dir/Linux/Display.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/Display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Linux/Display.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/Display.cpp -o CMakeFiles/sfml-window.dir/Linux/Display.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/Display.cpp -o CMakeFiles/sfml-window.dir/Linux/Display.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/Display.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/Display.cpp.o.requires
@@ -304,17 +304,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/Display.cpp.o.provides.build: s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.o: src/SFML/Window/Linux/GlxContext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/GlxContext.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/GlxContext.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/GlxContext.cpp > CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/GlxContext.cpp > CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/GlxContext.cpp -o CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/GlxContext.cpp -o CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.o.requires
@@ -327,17 +327,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/GlxContext.cpp.o.provides.build
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.o: src/SFML/Window/Linux/InputImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/InputImpl.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/InputImpl.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/InputImpl.cpp > CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/InputImpl.cpp > CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/InputImpl.cpp -o CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/InputImpl.cpp -o CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.o.requires
@@ -350,17 +350,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/InputImpl.cpp.o.provides.build:
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.o: src/SFML/Window/Linux/JoystickImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/JoystickImpl.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/JoystickImpl.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/JoystickImpl.cpp > CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/JoystickImpl.cpp > CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/JoystickImpl.cpp -o CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/JoystickImpl.cpp -o CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.o.requires
@@ -373,17 +373,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/JoystickImpl.cpp.o.provides.bui
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.o: src/SFML/Window/Linux/VideoModeImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/VideoModeImpl.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/VideoModeImpl.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/VideoModeImpl.cpp > CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/VideoModeImpl.cpp > CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/VideoModeImpl.cpp -o CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/VideoModeImpl.cpp -o CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.o.requires
@@ -396,17 +396,17 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/VideoModeImpl.cpp.o.provides.bu
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.o: src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.o: src/SFML/Window/Linux/WindowImplX11.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/WindowImplX11.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/WindowImplX11.cpp
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/WindowImplX11.cpp > CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/WindowImplX11.cpp > CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.i
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/WindowImplX11.cpp -o CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/WindowImplX11.cpp -o CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.s
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.o.requires:
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/Linux/WindowImplX11.cpp.o.requires
@@ -462,8 +462,8 @@ lib/libsfml-window.so.2.0: /usr/lib/x86_64-linux-gnu/libX11.so
 lib/libsfml-window.so.2.0: /usr/lib/x86_64-linux-gnu/libXrandr.so
 lib/libsfml-window.so.2.0: src/SFML/Window/CMakeFiles/sfml-window.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib/libsfml-window.so"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-window.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-window.so.2.0 ../../../lib/libsfml-window.so.2 ../../../lib/libsfml-window.so
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-window.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-window.so.2.0 ../../../lib/libsfml-window.so.2 ../../../lib/libsfml-window.so
 
 lib/libsfml-window.so.2: lib/libsfml-window.so.2.0
 
@@ -492,10 +492,10 @@ src/SFML/Window/CMakeFiles/sfml-window.dir/requires: src/SFML/Window/CMakeFiles/
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/requires
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/clean:
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Window && $(CMAKE_COMMAND) -P CMakeFiles/sfml-window.dir/cmake_clean.cmake
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Window && $(CMAKE_COMMAND) -P CMakeFiles/sfml-window.dir/cmake_clean.cmake
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/clean
 
 src/SFML/Window/CMakeFiles/sfml-window.dir/depend:
-	cd /home/nano/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nano/local/renekton/lib/sfml /home/nano/local/renekton/lib/sfml/src/SFML/Window /home/nano/local/renekton/lib/sfml /home/nano/local/renekton/lib/sfml/src/SFML/Window /home/nano/local/renekton/lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jose/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/local/renekton/lib/sfml /home/jose/local/renekton/lib/sfml/src/SFML/Window /home/jose/local/renekton/lib/sfml /home/jose/local/renekton/lib/sfml/src/SFML/Window /home/jose/local/renekton/lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/SFML/Window/CMakeFiles/sfml-window.dir/depend
 
