@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Network/Ftp.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Network/Ftp.cpp
 SFML/Network/Ftp.hpp
 -
 SFML/Network/IpAddress.hpp
@@ -20,7 +20,7 @@ iterator
 sstream
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Network/Http.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Network/Http.cpp
 SFML/Network/Http.hpp
 -
 cctype
@@ -32,7 +32,7 @@ iterator
 sstream
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Network/IpAddress.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Network/IpAddress.cpp
 SFML/Network/IpAddress.hpp
 -
 SFML/Network/Http.hpp
@@ -42,7 +42,7 @@ SFML/Network/SocketImpl.hpp
 cstring
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Network/Packet.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Network/Packet.cpp
 SFML/Network/Packet.hpp
 -
 SFML/Network/SocketImpl.hpp
@@ -54,7 +54,7 @@ cstring
 cwchar
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Network/Socket.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Network/Socket.cpp
 SFML/Network/Socket.hpp
 -
 SFML/Network/SocketImpl.hpp
@@ -62,7 +62,7 @@ SFML/Network/SocketImpl.hpp
 SFML/System/Err.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Network/SocketSelector.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Network/SocketSelector.cpp
 SFML/Network/SocketSelector.hpp
 -
 SFML/Network/Socket.hpp
@@ -74,7 +74,7 @@ SFML/System/Err.hpp
 utility
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Network/TcpListener.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Network/TcpListener.cpp
 SFML/Network/TcpListener.hpp
 -
 SFML/Network/TcpSocket.hpp
@@ -84,7 +84,7 @@ SFML/Network/SocketImpl.hpp
 SFML/System/Err.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Network/TcpSocket.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Network/TcpSocket.cpp
 SFML/Network/TcpSocket.hpp
 -
 SFML/Network/IpAddress.hpp
@@ -100,7 +100,7 @@ algorithm
 cstring
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Network/UdpSocket.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Network/UdpSocket.cpp
 SFML/Network/UdpSocket.hpp
 -
 SFML/Network/IpAddress.hpp
@@ -114,7 +114,7 @@ SFML/System/Err.hpp
 algorithm
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Network/Unix/SocketImpl.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Network/Unix/SocketImpl.cpp
 SFML/Network/Unix/SocketImpl.hpp
 -
 errno.h

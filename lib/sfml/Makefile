@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jose/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_progress_start /home/jose/local/renekton/lib/sfml/CMakeFiles /home/jose/local/renekton/lib/sfml/src/SFML/CMakeFiles/progress.marks
-	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/local/renekton/lib/sfml/CMakeFiles /home/jose/local/renekton/lib/sfml/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/local/renekton/lib/sfml/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/clean
+	$(MAKE) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -126,18 +126,83 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/preinstall
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/preinstall
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jose/local/renekton/lib/sfml && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named sfml-system
+
+# Build rule for target.
+sfml-system: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sfml-system
+.PHONY : sfml-system
+
+# fast build rule for target.
+sfml-system/fast:
+	$(MAKE) -f src/SFML/System/CMakeFiles/sfml-system.dir/build.make src/SFML/System/CMakeFiles/sfml-system.dir/build
+.PHONY : sfml-system/fast
+
+#=============================================================================
+# Target rules for targets named sfml-window
+
+# Build rule for target.
+sfml-window: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sfml-window
+.PHONY : sfml-window
+
+# fast build rule for target.
+sfml-window/fast:
+	$(MAKE) -f src/SFML/Window/CMakeFiles/sfml-window.dir/build.make src/SFML/Window/CMakeFiles/sfml-window.dir/build
+.PHONY : sfml-window/fast
+
+#=============================================================================
+# Target rules for targets named sfml-network
+
+# Build rule for target.
+sfml-network: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sfml-network
+.PHONY : sfml-network
+
+# fast build rule for target.
+sfml-network/fast:
+	$(MAKE) -f src/SFML/Network/CMakeFiles/sfml-network.dir/build.make src/SFML/Network/CMakeFiles/sfml-network.dir/build
+.PHONY : sfml-network/fast
+
+#=============================================================================
+# Target rules for targets named sfml-graphics
+
+# Build rule for target.
+sfml-graphics: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sfml-graphics
+.PHONY : sfml-graphics
+
+# fast build rule for target.
+sfml-graphics/fast:
+	$(MAKE) -f src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
+.PHONY : sfml-graphics/fast
+
+#=============================================================================
+# Target rules for targets named sfml-audio
+
+# Build rule for target.
+sfml-audio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sfml-audio
+.PHONY : sfml-audio
+
+# fast build rule for target.
+sfml-audio/fast:
+	$(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
+.PHONY : sfml-audio/fast
 
 # Help Target
 help:
@@ -151,6 +216,11 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... sfml-system"
+	@echo "... sfml-window"
+	@echo "... sfml-network"
+	@echo "... sfml-graphics"
+	@echo "... sfml-audio"
 .PHONY : help
 
 
@@ -162,6 +232,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jose/local/renekton/lib/sfml && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

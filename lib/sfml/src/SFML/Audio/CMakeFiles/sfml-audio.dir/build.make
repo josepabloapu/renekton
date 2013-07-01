@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nano/local/renekton/lib/sfml
+CMAKE_SOURCE_DIR = /home/jose/local/renekton/lib/sfml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nano/local/renekton/lib/sfml
+CMAKE_BINARY_DIR = /home/jose/local/renekton/lib/sfml
 
 # Include any dependencies generated for this target.
 include src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend.make
@@ -51,17 +51,17 @@ include src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o: src/SFML/Audio/ALCheck.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/ALCheck.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/ALCheck.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/ALCheck.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/ALCheck.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/ALCheck.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/ALCheck.cpp > CMakeFiles/sfml-audio.dir/ALCheck.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/ALCheck.cpp > CMakeFiles/sfml-audio.dir/ALCheck.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/ALCheck.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/ALCheck.cpp -o CMakeFiles/sfml-audio.dir/ALCheck.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/ALCheck.cpp -o CMakeFiles/sfml-audio.dir/ALCheck.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o.requires
@@ -74,17 +74,17 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o.provides.build: src/SFML/
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o: src/SFML/Audio/AudioDevice.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/AudioDevice.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/AudioDevice.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/AudioDevice.cpp > CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/AudioDevice.cpp > CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/AudioDevice.cpp -o CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/AudioDevice.cpp -o CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o.requires
@@ -97,17 +97,17 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o.provides.build: src/S
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o: src/SFML/Audio/Listener.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/Listener.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/Listener.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/Listener.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/Listener.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/Listener.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/Listener.cpp > CMakeFiles/sfml-audio.dir/Listener.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/Listener.cpp > CMakeFiles/sfml-audio.dir/Listener.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/Listener.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/Listener.cpp -o CMakeFiles/sfml-audio.dir/Listener.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/Listener.cpp -o CMakeFiles/sfml-audio.dir/Listener.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o.requires
@@ -120,17 +120,17 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o.provides.build: src/SFML
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o: src/SFML/Audio/Music.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/Music.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/Music.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/Music.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/Music.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/Music.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/Music.cpp > CMakeFiles/sfml-audio.dir/Music.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/Music.cpp > CMakeFiles/sfml-audio.dir/Music.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/Music.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/Music.cpp -o CMakeFiles/sfml-audio.dir/Music.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/Music.cpp -o CMakeFiles/sfml-audio.dir/Music.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o.requires
@@ -143,17 +143,17 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o.provides.build: src/SFML/Au
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: src/SFML/Audio/Sound.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/Sound.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/Sound.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/Sound.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/Sound.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/Sound.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/Sound.cpp > CMakeFiles/sfml-audio.dir/Sound.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/Sound.cpp > CMakeFiles/sfml-audio.dir/Sound.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/Sound.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/Sound.cpp -o CMakeFiles/sfml-audio.dir/Sound.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/Sound.cpp -o CMakeFiles/sfml-audio.dir/Sound.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o.requires
@@ -166,17 +166,17 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o.provides.build: src/SFML/Au
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o: src/SFML/Audio/SoundBuffer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundBuffer.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundBuffer.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundBuffer.cpp > CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundBuffer.cpp > CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundBuffer.cpp -o CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundBuffer.cpp -o CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o.requires
@@ -189,17 +189,17 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o.provides.build: src/S
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o: src/SFML/Audio/SoundBufferRecorder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundBufferRecorder.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundBufferRecorder.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundBufferRecorder.cpp > CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundBufferRecorder.cpp > CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundBufferRecorder.cpp -o CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundBufferRecorder.cpp -o CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o.requires
@@ -212,17 +212,17 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o.provides.buil
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.o: src/SFML/Audio/SoundFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundFile.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundFile.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundFile.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundFile.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFile.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundFile.cpp > CMakeFiles/sfml-audio.dir/SoundFile.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundFile.cpp > CMakeFiles/sfml-audio.dir/SoundFile.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFile.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundFile.cpp -o CMakeFiles/sfml-audio.dir/SoundFile.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundFile.cpp -o CMakeFiles/sfml-audio.dir/SoundFile.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.o.requires
@@ -235,17 +235,17 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.o.provides.build: src/SFM
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o: src/SFML/Audio/SoundRecorder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundRecorder.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundRecorder.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundRecorder.cpp > CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundRecorder.cpp > CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundRecorder.cpp -o CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundRecorder.cpp -o CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o.requires
@@ -258,17 +258,17 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o.provides.build: src
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o: src/SFML/Audio/SoundSource.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundSource.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundSource.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundSource.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundSource.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundSource.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundSource.cpp > CMakeFiles/sfml-audio.dir/SoundSource.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundSource.cpp > CMakeFiles/sfml-audio.dir/SoundSource.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundSource.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundSource.cpp -o CMakeFiles/sfml-audio.dir/SoundSource.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundSource.cpp -o CMakeFiles/sfml-audio.dir/SoundSource.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o.requires
@@ -281,17 +281,17 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o.provides.build: src/S
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o: src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o: src/SFML/Audio/SoundStream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundStream.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundStream.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-audio.dir/SoundStream.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundStream.cpp
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundStream.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundStream.cpp > CMakeFiles/sfml-audio.dir/SoundStream.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundStream.cpp > CMakeFiles/sfml-audio.dir/SoundStream.cpp.i
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundStream.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/Audio/SoundStream.cpp -o CMakeFiles/sfml-audio.dir/SoundStream.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/Audio/SoundStream.cpp -o CMakeFiles/sfml-audio.dir/SoundStream.cpp.s
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o.requires:
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o.requires
@@ -336,8 +336,8 @@ lib/libsfml-audio.so.2.0: /usr/lib/x86_64-linux-gnu/libopenal.so
 lib/libsfml-audio.so.2.0: /usr/lib/x86_64-linux-gnu/libsndfile.so
 lib/libsfml-audio.so.2.0: src/SFML/Audio/CMakeFiles/sfml-audio.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib/libsfml-audio.so"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-audio.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-audio.so.2.0 ../../../lib/libsfml-audio.so.2 ../../../lib/libsfml-audio.so
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-audio.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-audio.so.2.0 ../../../lib/libsfml-audio.so.2 ../../../lib/libsfml-audio.so
 
 lib/libsfml-audio.so.2: lib/libsfml-audio.so.2.0
 
@@ -361,10 +361,10 @@ src/SFML/Audio/CMakeFiles/sfml-audio.dir/requires: src/SFML/Audio/CMakeFiles/sfm
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/requires
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/clean:
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -P CMakeFiles/sfml-audio.dir/cmake_clean.cmake
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/Audio && $(CMAKE_COMMAND) -P CMakeFiles/sfml-audio.dir/cmake_clean.cmake
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/clean
 
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend:
-	cd /home/nano/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nano/local/renekton/lib/sfml /home/nano/local/renekton/lib/sfml/src/SFML/Audio /home/nano/local/renekton/lib/sfml /home/nano/local/renekton/lib/sfml/src/SFML/Audio /home/nano/local/renekton/lib/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jose/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/local/renekton/lib/sfml /home/jose/local/renekton/lib/sfml/src/SFML/Audio /home/jose/local/renekton/lib/sfml /home/jose/local/renekton/lib/sfml/src/SFML/Audio /home/jose/local/renekton/lib/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 

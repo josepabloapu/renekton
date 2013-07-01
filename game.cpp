@@ -45,14 +45,14 @@ int main()
 	int player1Score = 0;
 
 	//player 2 properties
-	int p2Len = 80;
+	int p2Len = 150;
 	sf::RectangleShape player2(sf::Vector2f(10, p2Len));
-	player2.setFillColor(sf::Color(255, 0, 0));
+	player2.setFillColor(sf::Color(255, 50, 50));
 	player2.setPosition(RENDERWIDTH - player2.getSize().x, RENDERHEIGHT / 2 - player2.getSize().y / 2);
 	int player2Score = 0;
 
 	//ball properties
-	sf::CircleShape ball(5, 25);
+	sf::CircleShape ball(10, 25);
 	ball.setFillColor(sf::Color(255,255,255));
 	ball.setPosition(RENDERWIDTH / 2 - ball.getRadius(), RENDERHEIGHT / 2 - ball.getRadius());
 	float BALLSPEED = 2;
@@ -62,7 +62,7 @@ int main()
 	
 	//score text
 	sf::Font font;
-	font.loadFromFile("SF Atarian System.ttf");
+	font.loadFromFile("/usr/share/fonts/truetype/ttf-liberation/LiberationSerif-Regular.ttf");
 	sf::Text score1("0", font, 80);
 	score1.setPosition(RENDERWIDTH / 4, 0);
 	sf::Text score2("0", font, 80);

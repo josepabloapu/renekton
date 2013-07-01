@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Clock.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Clock.cpp
 SFML/System/Clock.hpp
 -
 SFML/System/Win32/ClockImpl.hpp
@@ -14,7 +14,7 @@ SFML/System/Win32/ClockImpl.hpp
 SFML/System/Unix/ClockImpl.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Err.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Err.cpp
 SFML/System/Err.hpp
 -
 streambuf
@@ -22,13 +22,13 @@ streambuf
 cstdio
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Lock.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Lock.cpp
 SFML/System/Lock.hpp
 -
 SFML/System/Mutex.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Mutex.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Mutex.cpp
 SFML/System/Mutex.hpp
 -
 SFML/System/Win32/MutexImpl.hpp
@@ -36,7 +36,7 @@ SFML/System/Win32/MutexImpl.hpp
 SFML/System/Unix/MutexImpl.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Sleep.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Sleep.cpp
 SFML/System/Sleep.hpp
 -
 SFML/System/Win32/SleepImpl.hpp
@@ -44,7 +44,7 @@ SFML/System/Win32/SleepImpl.hpp
 SFML/System/Unix/SleepImpl.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/String.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/String.cpp
 SFML/System/String.hpp
 -
 SFML/System/Utf.hpp
@@ -54,7 +54,7 @@ iterator
 cstring
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Thread.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Thread.cpp
 SFML/System/Thread.hpp
 -
 SFML/System/Win32/ThreadImpl.hpp
@@ -62,7 +62,7 @@ SFML/System/Win32/ThreadImpl.hpp
 SFML/System/Unix/ThreadImpl.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/ThreadLocal.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/ThreadLocal.cpp
 SFML/System/ThreadLocal.hpp
 -
 SFML/System/Win32/ThreadLocalImpl.hpp
@@ -70,11 +70,11 @@ SFML/System/Win32/ThreadLocalImpl.hpp
 SFML/System/Unix/ThreadLocalImpl.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Time.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Time.cpp
 SFML/System/Time.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ClockImpl.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ClockImpl.cpp
 SFML/System/Unix/ClockImpl.hpp
 -
 mach/mach_time.h
@@ -82,11 +82,11 @@ mach/mach_time.h
 time.h
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/MutexImpl.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/MutexImpl.cpp
 SFML/System/Unix/MutexImpl.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/SleepImpl.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/SleepImpl.cpp
 SFML/System/Unix/SleepImpl.hpp
 -
 pthread.h
@@ -96,7 +96,7 @@ unistd.h
 sys/time.h
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadImpl.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadImpl.cpp
 SFML/System/Unix/ThreadImpl.hpp
 -
 SFML/System/Thread.hpp
@@ -106,7 +106,7 @@ iostream
 cassert
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadLocalImpl.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadLocalImpl.cpp
 SFML/System/Unix/ThreadLocalImpl.hpp
 -
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nano/local/renekton/lib/sfml
+CMAKE_SOURCE_DIR = /home/jose/local/renekton/lib/sfml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nano/local/renekton/lib/sfml
+CMAKE_BINARY_DIR = /home/jose/local/renekton/lib/sfml
 
 # Include any dependencies generated for this target.
 include src/SFML/System/CMakeFiles/sfml-system.dir/depend.make
@@ -51,17 +51,17 @@ include src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o: src/SFML/System/Clock.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Clock.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Clock.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Clock.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Clock.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Clock.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Clock.cpp > CMakeFiles/sfml-system.dir/Clock.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Clock.cpp > CMakeFiles/sfml-system.dir/Clock.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Clock.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Clock.cpp -o CMakeFiles/sfml-system.dir/Clock.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Clock.cpp -o CMakeFiles/sfml-system.dir/Clock.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o.requires
@@ -74,17 +74,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o.provides.build: src/SFML/
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o: src/SFML/System/Err.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Err.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Err.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Err.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Err.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Err.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Err.cpp > CMakeFiles/sfml-system.dir/Err.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Err.cpp > CMakeFiles/sfml-system.dir/Err.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Err.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Err.cpp -o CMakeFiles/sfml-system.dir/Err.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Err.cpp -o CMakeFiles/sfml-system.dir/Err.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o.requires
@@ -97,17 +97,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o.provides.build: src/SFML/Sy
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o: src/SFML/System/Lock.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Lock.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Lock.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Lock.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Lock.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Lock.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Lock.cpp > CMakeFiles/sfml-system.dir/Lock.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Lock.cpp > CMakeFiles/sfml-system.dir/Lock.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Lock.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Lock.cpp -o CMakeFiles/sfml-system.dir/Lock.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Lock.cpp -o CMakeFiles/sfml-system.dir/Lock.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o.requires
@@ -120,17 +120,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o.provides.build: src/SFML/S
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o: src/SFML/System/Mutex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Mutex.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Mutex.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Mutex.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Mutex.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Mutex.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Mutex.cpp > CMakeFiles/sfml-system.dir/Mutex.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Mutex.cpp > CMakeFiles/sfml-system.dir/Mutex.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Mutex.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Mutex.cpp -o CMakeFiles/sfml-system.dir/Mutex.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Mutex.cpp -o CMakeFiles/sfml-system.dir/Mutex.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o.requires
@@ -143,17 +143,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o.provides.build: src/SFML/
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o: src/SFML/System/Sleep.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Sleep.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Sleep.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Sleep.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Sleep.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Sleep.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Sleep.cpp > CMakeFiles/sfml-system.dir/Sleep.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Sleep.cpp > CMakeFiles/sfml-system.dir/Sleep.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Sleep.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Sleep.cpp -o CMakeFiles/sfml-system.dir/Sleep.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Sleep.cpp -o CMakeFiles/sfml-system.dir/Sleep.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o.requires
@@ -166,17 +166,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o.provides.build: src/SFML/
 
 src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o: src/SFML/System/String.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/String.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/String.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/String.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/String.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/String.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/String.cpp > CMakeFiles/sfml-system.dir/String.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/String.cpp > CMakeFiles/sfml-system.dir/String.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/String.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/String.cpp -o CMakeFiles/sfml-system.dir/String.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/String.cpp -o CMakeFiles/sfml-system.dir/String.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o.requires
@@ -189,17 +189,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o.provides.build: src/SFML
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o: src/SFML/System/Thread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Thread.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Thread.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Thread.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Thread.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Thread.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Thread.cpp > CMakeFiles/sfml-system.dir/Thread.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Thread.cpp > CMakeFiles/sfml-system.dir/Thread.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Thread.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Thread.cpp -o CMakeFiles/sfml-system.dir/Thread.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Thread.cpp -o CMakeFiles/sfml-system.dir/Thread.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o.requires
@@ -212,17 +212,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o.provides.build: src/SFML
 
 src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o: src/SFML/System/ThreadLocal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/ThreadLocal.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/ThreadLocal.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/ThreadLocal.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/ThreadLocal.cpp > CMakeFiles/sfml-system.dir/ThreadLocal.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/ThreadLocal.cpp > CMakeFiles/sfml-system.dir/ThreadLocal.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/ThreadLocal.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/ThreadLocal.cpp -o CMakeFiles/sfml-system.dir/ThreadLocal.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/ThreadLocal.cpp -o CMakeFiles/sfml-system.dir/ThreadLocal.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o.requires
@@ -235,17 +235,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o.provides.build: src
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o: src/SFML/System/Time.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Time.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Time.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Time.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Time.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Time.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Time.cpp > CMakeFiles/sfml-system.dir/Time.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Time.cpp > CMakeFiles/sfml-system.dir/Time.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Time.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Time.cpp -o CMakeFiles/sfml-system.dir/Time.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Time.cpp -o CMakeFiles/sfml-system.dir/Time.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o.requires
@@ -258,17 +258,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o.provides.build: src/SFML/S
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o: src/SFML/System/Unix/ClockImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ClockImpl.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ClockImpl.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ClockImpl.cpp > CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ClockImpl.cpp > CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ClockImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ClockImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o.requires
@@ -281,17 +281,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o.provides.build: 
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o: src/SFML/System/Unix/MutexImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/MutexImpl.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/MutexImpl.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/MutexImpl.cpp > CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/MutexImpl.cpp > CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/MutexImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/MutexImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o.requires
@@ -304,17 +304,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o.provides.build: 
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o: src/SFML/System/Unix/SleepImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/SleepImpl.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/SleepImpl.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/SleepImpl.cpp > CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/SleepImpl.cpp > CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/SleepImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/SleepImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o.requires
@@ -327,17 +327,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o.provides.build: 
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o: src/SFML/System/Unix/ThreadImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadImpl.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadImpl.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadImpl.cpp > CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadImpl.cpp > CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o.requires
@@ -350,17 +350,17 @@ src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o.provides.build:
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o: src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o: src/SFML/System/Unix/ThreadLocalImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nano/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jose/local/renekton/lib/sfml/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o -c /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadLocalImpl.cpp
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -o CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o -c /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadLocalImpl.cpp
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.i"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadLocalImpl.cpp > CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.i
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -E /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadLocalImpl.cpp > CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.i
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.s"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/nano/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadLocalImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.s
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -fvisibility=hidden -S /home/jose/local/renekton/lib/sfml/src/SFML/System/Unix/ThreadLocalImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.s
 
 src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o.requires:
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o.requires
@@ -408,8 +408,8 @@ lib/libsfml-system.so.2.0: src/SFML/System/CMakeFiles/sfml-system.dir/Unix/Threa
 lib/libsfml-system.so.2.0: src/SFML/System/CMakeFiles/sfml-system.dir/build.make
 lib/libsfml-system.so.2.0: src/SFML/System/CMakeFiles/sfml-system.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib/libsfml-system.so"
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-system.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-system.so.2.0 ../../../lib/libsfml-system.so.2 ../../../lib/libsfml-system.so
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-system.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-system.so.2.0 ../../../lib/libsfml-system.so.2 ../../../lib/libsfml-system.so
 
 lib/libsfml-system.so.2: lib/libsfml-system.so.2.0
 
@@ -436,10 +436,10 @@ src/SFML/System/CMakeFiles/sfml-system.dir/requires: src/SFML/System/CMakeFiles/
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/requires
 
 src/SFML/System/CMakeFiles/sfml-system.dir/clean:
-	cd /home/nano/local/renekton/lib/sfml/src/SFML/System && $(CMAKE_COMMAND) -P CMakeFiles/sfml-system.dir/cmake_clean.cmake
+	cd /home/jose/local/renekton/lib/sfml/src/SFML/System && $(CMAKE_COMMAND) -P CMakeFiles/sfml-system.dir/cmake_clean.cmake
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/clean
 
 src/SFML/System/CMakeFiles/sfml-system.dir/depend:
-	cd /home/nano/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nano/local/renekton/lib/sfml /home/nano/local/renekton/lib/sfml/src/SFML/System /home/nano/local/renekton/lib/sfml /home/nano/local/renekton/lib/sfml/src/SFML/System /home/nano/local/renekton/lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jose/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/local/renekton/lib/sfml /home/jose/local/renekton/lib/sfml/src/SFML/System /home/jose/local/renekton/lib/sfml /home/jose/local/renekton/lib/sfml/src/SFML/System /home/jose/local/renekton/lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/SFML/System/CMakeFiles/sfml-system.dir/depend
 
