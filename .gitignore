@@ -87,3 +87,12 @@ Thumbs.db
 *~
 *.pdf
 .directory
+
+# Specific files #
+##################
+lib/sfml/CMakeCache.txt
+lib/sfml/lib/cmake_install.cmake 
+lib/sfml/lib/CMakeCache.txt
+lib/sfml/lib/install_manifest.txt
+lib/sfml/lib/Makefile
+pong

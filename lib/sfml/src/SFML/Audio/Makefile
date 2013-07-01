@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nano/local/renekton/lib/sfml
+CMAKE_SOURCE_DIR = /home/jose/local/renekton/lib/sfml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nano/local/renekton/lib/sfml
+CMAKE_BINARY_DIR = /home/jose/local/renekton/lib/sfml
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nano/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_progress_start /home/nano/local/renekton/lib/sfml/CMakeFiles /home/nano/local/renekton/lib/sfml/src/SFML/Audio/CMakeFiles/progress.marks
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/Audio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nano/local/renekton/lib/sfml/CMakeFiles 0
+	cd /home/jose/local/renekton/lib/sfml && $(CMAKE_COMMAND) -E cmake_progress_start /home/jose/local/renekton/lib/sfml/CMakeFiles /home/jose/local/renekton/lib/sfml/src/SFML/Audio/CMakeFiles/progress.marks
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/Audio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/local/renekton/lib/sfml/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/Audio/clean
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/Audio/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/Audio/preinstall
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/Audio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/Audio/preinstall
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/Audio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nano/local/renekton/lib/sfml && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jose/local/renekton/lib/sfml && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f CMakeFiles/Makefile2 src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ sfml-audio: src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule
 
 # fast build rule for target.
 sfml-audio/fast:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 .PHONY : sfml-audio/fast
 
 ALCheck.o: ALCheck.cpp.o
@@ -158,7 +158,7 @@ ALCheck.o: ALCheck.cpp.o
 
 # target to build an object file
 ALCheck.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o
 .PHONY : ALCheck.cpp.o
 
 ALCheck.i: ALCheck.cpp.i
@@ -166,7 +166,7 @@ ALCheck.i: ALCheck.cpp.i
 
 # target to preprocess a source file
 ALCheck.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.i
 .PHONY : ALCheck.cpp.i
 
 ALCheck.s: ALCheck.cpp.s
@@ -174,7 +174,7 @@ ALCheck.s: ALCheck.cpp.s
 
 # target to generate assembly for a file
 ALCheck.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.s
 .PHONY : ALCheck.cpp.s
 
 AudioDevice.o: AudioDevice.cpp.o
@@ -182,7 +182,7 @@ AudioDevice.o: AudioDevice.cpp.o
 
 # target to build an object file
 AudioDevice.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o
 .PHONY : AudioDevice.cpp.o
 
 AudioDevice.i: AudioDevice.cpp.i
@@ -190,7 +190,7 @@ AudioDevice.i: AudioDevice.cpp.i
 
 # target to preprocess a source file
 AudioDevice.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i
 .PHONY : AudioDevice.cpp.i
 
 AudioDevice.s: AudioDevice.cpp.s
@@ -198,7 +198,7 @@ AudioDevice.s: AudioDevice.cpp.s
 
 # target to generate assembly for a file
 AudioDevice.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s
 .PHONY : AudioDevice.cpp.s
 
 Listener.o: Listener.cpp.o
@@ -206,7 +206,7 @@ Listener.o: Listener.cpp.o
 
 # target to build an object file
 Listener.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o
 .PHONY : Listener.cpp.o
 
 Listener.i: Listener.cpp.i
@@ -214,7 +214,7 @@ Listener.i: Listener.cpp.i
 
 # target to preprocess a source file
 Listener.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.i
 .PHONY : Listener.cpp.i
 
 Listener.s: Listener.cpp.s
@@ -222,7 +222,7 @@ Listener.s: Listener.cpp.s
 
 # target to generate assembly for a file
 Listener.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.s
 .PHONY : Listener.cpp.s
 
 Music.o: Music.cpp.o
@@ -230,7 +230,7 @@ Music.o: Music.cpp.o
 
 # target to build an object file
 Music.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o
 .PHONY : Music.cpp.o
 
 Music.i: Music.cpp.i
@@ -238,7 +238,7 @@ Music.i: Music.cpp.i
 
 # target to preprocess a source file
 Music.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.i
 .PHONY : Music.cpp.i
 
 Music.s: Music.cpp.s
@@ -246,7 +246,7 @@ Music.s: Music.cpp.s
 
 # target to generate assembly for a file
 Music.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.s
 .PHONY : Music.cpp.s
 
 Sound.o: Sound.cpp.o
@@ -254,7 +254,7 @@ Sound.o: Sound.cpp.o
 
 # target to build an object file
 Sound.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o
 .PHONY : Sound.cpp.o
 
 Sound.i: Sound.cpp.i
@@ -262,7 +262,7 @@ Sound.i: Sound.cpp.i
 
 # target to preprocess a source file
 Sound.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.i
 .PHONY : Sound.cpp.i
 
 Sound.s: Sound.cpp.s
@@ -270,7 +270,7 @@ Sound.s: Sound.cpp.s
 
 # target to generate assembly for a file
 Sound.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.s
 .PHONY : Sound.cpp.s
 
 SoundBuffer.o: SoundBuffer.cpp.o
@@ -278,7 +278,7 @@ SoundBuffer.o: SoundBuffer.cpp.o
 
 # target to build an object file
 SoundBuffer.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o
 .PHONY : SoundBuffer.cpp.o
 
 SoundBuffer.i: SoundBuffer.cpp.i
@@ -286,7 +286,7 @@ SoundBuffer.i: SoundBuffer.cpp.i
 
 # target to preprocess a source file
 SoundBuffer.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i
 .PHONY : SoundBuffer.cpp.i
 
 SoundBuffer.s: SoundBuffer.cpp.s
@@ -294,7 +294,7 @@ SoundBuffer.s: SoundBuffer.cpp.s
 
 # target to generate assembly for a file
 SoundBuffer.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s
 .PHONY : SoundBuffer.cpp.s
 
 SoundBufferRecorder.o: SoundBufferRecorder.cpp.o
@@ -302,7 +302,7 @@ SoundBufferRecorder.o: SoundBufferRecorder.cpp.o
 
 # target to build an object file
 SoundBufferRecorder.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o
 .PHONY : SoundBufferRecorder.cpp.o
 
 SoundBufferRecorder.i: SoundBufferRecorder.cpp.i
@@ -310,7 +310,7 @@ SoundBufferRecorder.i: SoundBufferRecorder.cpp.i
 
 # target to preprocess a source file
 SoundBufferRecorder.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i
 .PHONY : SoundBufferRecorder.cpp.i
 
 SoundBufferRecorder.s: SoundBufferRecorder.cpp.s
@@ -318,7 +318,7 @@ SoundBufferRecorder.s: SoundBufferRecorder.cpp.s
 
 # target to generate assembly for a file
 SoundBufferRecorder.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s
 .PHONY : SoundBufferRecorder.cpp.s
 
 SoundFile.o: SoundFile.cpp.o
@@ -326,7 +326,7 @@ SoundFile.o: SoundFile.cpp.o
 
 # target to build an object file
 SoundFile.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.o
 .PHONY : SoundFile.cpp.o
 
 SoundFile.i: SoundFile.cpp.i
@@ -334,7 +334,7 @@ SoundFile.i: SoundFile.cpp.i
 
 # target to preprocess a source file
 SoundFile.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.i
 .PHONY : SoundFile.cpp.i
 
 SoundFile.s: SoundFile.cpp.s
@@ -342,7 +342,7 @@ SoundFile.s: SoundFile.cpp.s
 
 # target to generate assembly for a file
 SoundFile.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFile.cpp.s
 .PHONY : SoundFile.cpp.s
 
 SoundRecorder.o: SoundRecorder.cpp.o
@@ -350,7 +350,7 @@ SoundRecorder.o: SoundRecorder.cpp.o
 
 # target to build an object file
 SoundRecorder.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o
 .PHONY : SoundRecorder.cpp.o
 
 SoundRecorder.i: SoundRecorder.cpp.i
@@ -358,7 +358,7 @@ SoundRecorder.i: SoundRecorder.cpp.i
 
 # target to preprocess a source file
 SoundRecorder.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i
 .PHONY : SoundRecorder.cpp.i
 
 SoundRecorder.s: SoundRecorder.cpp.s
@@ -366,7 +366,7 @@ SoundRecorder.s: SoundRecorder.cpp.s
 
 # target to generate assembly for a file
 SoundRecorder.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s
 .PHONY : SoundRecorder.cpp.s
 
 SoundSource.o: SoundSource.cpp.o
@@ -374,7 +374,7 @@ SoundSource.o: SoundSource.cpp.o
 
 # target to build an object file
 SoundSource.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o
 .PHONY : SoundSource.cpp.o
 
 SoundSource.i: SoundSource.cpp.i
@@ -382,7 +382,7 @@ SoundSource.i: SoundSource.cpp.i
 
 # target to preprocess a source file
 SoundSource.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.i
 .PHONY : SoundSource.cpp.i
 
 SoundSource.s: SoundSource.cpp.s
@@ -390,7 +390,7 @@ SoundSource.s: SoundSource.cpp.s
 
 # target to generate assembly for a file
 SoundSource.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.s
 .PHONY : SoundSource.cpp.s
 
 SoundStream.o: SoundStream.cpp.o
@@ -398,7 +398,7 @@ SoundStream.o: SoundStream.cpp.o
 
 # target to build an object file
 SoundStream.cpp.o:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o
 .PHONY : SoundStream.cpp.o
 
 SoundStream.i: SoundStream.cpp.i
@@ -406,7 +406,7 @@ SoundStream.i: SoundStream.cpp.i
 
 # target to preprocess a source file
 SoundStream.cpp.i:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.i
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.i
 .PHONY : SoundStream.cpp.i
 
 SoundStream.s: SoundStream.cpp.s
@@ -414,7 +414,7 @@ SoundStream.s: SoundStream.cpp.s
 
 # target to generate assembly for a file
 SoundStream.cpp.s:
-	cd /home/nano/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.s
+	cd /home/jose/local/renekton/lib/sfml && $(MAKE) -f src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.s
 .PHONY : SoundStream.cpp.s
 
 # Help Target
@@ -474,6 +474,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nano/local/renekton/lib/sfml && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jose/local/renekton/lib/sfml && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

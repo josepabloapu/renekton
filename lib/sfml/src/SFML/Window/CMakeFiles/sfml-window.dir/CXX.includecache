@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Context.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Context.cpp
 SFML/Window/Context.hpp
 -
 SFML/Window/GlContext.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/GlContext.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/GlContext.cpp
 SFML/Window/GlContext.hpp
 -
 SFML/System/ThreadLocalPtr.hpp
@@ -38,7 +38,7 @@ SFML/Window/Linux/GlxContext.hpp
 SFML/Window/OSX/SFContext.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/GlResource.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/GlResource.cpp
 SFML/Window/GlResource.hpp
 -
 SFML/Window/GlContext.hpp
@@ -48,29 +48,29 @@ SFML/System/Mutex.hpp
 SFML/System/Lock.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Joystick.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Joystick.cpp
 SFML/Window/Joystick.hpp
 -
 SFML/Window/JoystickManager.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/JoystickManager.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/JoystickManager.cpp
 SFML/Window/JoystickManager.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Keyboard.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Keyboard.cpp
 SFML/Window/Keyboard.hpp
 -
 SFML/Window/InputImpl.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/Display.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/Display.cpp
 SFML/Window/Linux/Display.hpp
 -
 cassert
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/GlxContext.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/GlxContext.cpp
 SFML/Window/Linux/GlxContext.hpp
 -
 SFML/Window/Linux/WindowImplX11.hpp
@@ -84,7 +84,7 @@ SFML/Window/glext/glxext.h
 SFML/System/Err.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/InputImpl.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/InputImpl.cpp
 SFML/Window/Linux/InputImpl.hpp
 -
 SFML/Window/Window.hpp
@@ -96,7 +96,7 @@ X11/Xlib.h
 X11/keysym.h
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/JoystickImpl.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/JoystickImpl.cpp
 SFML/Window/JoystickImpl.hpp
 -
 sys/stat.h
@@ -108,7 +108,7 @@ errno.h
 cstdio
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/VideoModeImpl.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/VideoModeImpl.cpp
 SFML/Window/VideoModeImpl.hpp
 -
 SFML/Window/Linux/Display.hpp
@@ -122,7 +122,7 @@ X11/extensions/Xrandr.h
 algorithm
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Linux/WindowImplX11.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Linux/WindowImplX11.cpp
 SFML/Window/WindowStyle.hpp
 -
 SFML/Window/Linux/WindowImplX11.hpp
@@ -152,7 +152,7 @@ string
 iterator
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Mouse.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Mouse.cpp
 SFML/Window/Mouse.hpp
 -
 SFML/Window/InputImpl.hpp
@@ -160,7 +160,7 @@ SFML/Window/InputImpl.hpp
 SFML/Window/Window.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/VideoMode.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/VideoMode.cpp
 SFML/Window/VideoMode.hpp
 -
 SFML/Window/VideoModeImpl.hpp
@@ -170,7 +170,7 @@ algorithm
 functional
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/Window.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/Window.cpp
 SFML/Window/Window.hpp
 -
 SFML/Window/GlContext.hpp
@@ -182,7 +182,7 @@ SFML/System/Sleep.hpp
 SFML/System/Err.hpp
 -
 
-/home/nano/local/renekton/lib/sfml/src/SFML/Window/WindowImpl.cpp
+/home/jose/local/renekton/lib/sfml/src/SFML/Window/WindowImpl.cpp
 SFML/Window/WindowImpl.hpp
 -
 SFML/Window/Event.hpp

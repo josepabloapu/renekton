@@ -73,7 +73,11 @@ int main()
 	*/
 	//score text
 	sf::Font font;
+<<<<<<< HEAD
 	font.loadFromFile("/usr/share/cups/fonts/FreeMonoOblique.ttf");
+=======
+	font.loadFromFile("/usr/share/fonts/truetype/ttf-liberation/LiberationSerif-Bold.ttf");
+>>>>>>> 38b19002bd484a2627d6e06e06fe54b22a2a9474
 	sf::Text score1("0", font, 80);
 	score1.setPosition(RENDERWIDTH / 4, 0);
 	sf::Text score2("0", font, 80);

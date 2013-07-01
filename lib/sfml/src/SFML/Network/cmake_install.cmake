@@ -1,4 +1,4 @@
-# Install script for directory: /home/nano/local/renekton/lib/sfml/src/SFML/Network
+# Install script for directory: /home/jose/local/renekton/lib/sfml/src/SFML/Network
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,9 +46,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "bin")
     ENDIF()
   ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/nano/local/renekton/lib/sfml/lib/libsfml-network.so.2.0"
-    "/home/nano/local/renekton/lib/sfml/lib/libsfml-network.so.2"
-    "/home/nano/local/renekton/lib/sfml/lib/libsfml-network.so"
+    "/home/jose/local/renekton/lib/sfml/lib/libsfml-network.so.2.0"
+    "/home/jose/local/renekton/lib/sfml/lib/libsfml-network.so.2"
+    "/home/jose/local/renekton/lib/sfml/lib/libsfml-network.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-network.so.2.0"
