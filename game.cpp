@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
+
 #include <sstream>
 #include <string>
 
@@ -29,11 +30,11 @@ int main()
 
 	//sound
 	sf::SoundBuffer buffer1;
-	buffer1.loadFromFile("bounce.wav");
+	buffer1.loadFromFile("/usr/lib/libreoffice/share/gallery/sounds/beam.wav");
 	sf::Sound bounce;
 	bounce.setBuffer(buffer1);
 	sf::SoundBuffer buffer2;
-	buffer2.loadFromFile("point.wav");
+	buffer2.loadFromFile("/usr/lib/libreoffice/share/gallery/sounds/beam2.wav");
 	sf::Sound point;
 	point.setBuffer(buffer2);
 
@@ -60,9 +61,19 @@ int main()
 	float ballX = RENDERWIDTH / 2 - ball.getRadius(), ballY = RENDERHEIGHT / 2 - ball.getRadius();
 	float ballDiameter = ball.getRadius() * 2;
 	
+	//BONUS properties 
+	/*
+	sf::CircleShape bonus(10, 25);
+	ball.setFillColor(sf::Color(0,255,0));
+	ball.setPosition(RENDERWIDTH / 2 , RENDERHEIGHT / rand ()%10+1);
+	float BONUSSPEED = 2;
+	float bonusVelX = -BONUSSPEED, bonusVelY = -BONUSSPEED;
+	float bonusX = RENDERWIDTH / 2 - bonus.getRadius(), bonusY = RENDERHEIGHT / 2 - bonus.getRadius();
+	float bonusDiameter = bonus.getRadius() * 2;
+	*/
 	//score text
 	sf::Font font;
-	font.loadFromFile("/usr/share/fonts/truetype/ttf-liberation/LiberationSerif-Regular.ttf");
+	font.loadFromFile("/usr/share/fonts/truetype/ttf-liberation/LiberationSerif-Bold.ttf");
 	sf::Text score1("0", font, 80);
 	score1.setPosition(RENDERWIDTH / 4, 0);
 	sf::Text score2("0", font, 80);
@@ -79,16 +90,38 @@ int main()
 		}
 
 		//player 1 movement
-		if(sf::Keyboard::isKeyPressed(sf::Keyboard::W))
-			player1.move(0, -10);
-		else if(sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+		
+		if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)){
+			
+			player1.move(0, -10);}
+		else if(sf::Keyboard::isKeyPressed(sf::Keyboard::S)){
 			player1.move(0, 10);
+		}
+		//MOVIMIENTO GOLPE PLAYER1	
+		if (player1.getPosition().x <= 10){
+		if(sf::Keyboard::isKeyPressed(sf::Keyboard::D)){
+			
+			player1.move(10, 0);
+			
+			
+		}}
 
 		//player 2 movement
 		if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
 			player2.move(0, -10);
 		else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
 			player2.move(0, 10);
+		
+		//MOVIMIENTO GOLPE PLAYER2
+			
+		if (player2.getPosition().x >= RENDERWIDTH-player2.getSize().x-10){
+			  
+		if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
+			
+			player2.move(-10, 0);
+			
+			
+		}}
 
 		//player 1 and wall collision
 		if(player1.getPosition().y <= 0)
@@ -96,6 +129,14 @@ int main()
 		if(player1.getPosition().y >= RENDERHEIGHT - player1.getSize().y)
 			player1.setPosition(0, RENDERHEIGHT - player1.getSize().y);
 
+		//PLAYER1 AND WALL BACK COLLISION
+		if(player1.getPosition().x != 0)
+			player1.move(-1,0);
+		
+		//PLAYER2 AND WALL BACK COLLISION
+		if(player2.getPosition().x != RENDERWIDTH-player2.getSize().x)
+			player2.move(1,0);
+		
 		//player 2 and wall collision
 		if(player2.getPosition().y <= 0)
 			player2.setPosition(RENDERWIDTH - player2.getSize().x, 0);
@@ -115,15 +156,17 @@ int main()
 			if ((ball.getPosition().y + ballDiameter >= player1.getPosition().y && ball.getPosition().y + ballDiameter <= player1.getPosition().y + player1.getSize().y) || ball.getPosition().y <= player1.getPosition().y + player1.getSize().y && ball.getPosition().y >= player1.getPosition().y)
 			{
 				ballVelX = (ballVelX - 1) * -1;
+				ball.setFillColor(sf::Color(0,255,0));
 				bounce.play();
 			}
 			else
 			{
 				point.play();
-				player2Score += 1;
+				player2Score += 1;  
 				ballX = RENDERWIDTH / 2 - ball.getRadius();
-				if (BALLSPEED < 8)
-					BALLSPEED += 0.5;
+				if (BALLSPEED < 8){
+					BALLSPEED += 0.2;
+					}
 				ballVelX = BALLSPEED;
 				score2.setString(convertInt(player2Score));
 				score2.setPosition(3 * RENDERWIDTH / 4 - score2.getLocalBounds().width, 0);
@@ -133,6 +176,7 @@ int main()
 				if (p1Len < 80)
 					p1Len += 10;
 				player1.setSize(sf::Vector2f(10, p1Len));
+				
 			}
 		}
 
@@ -142,6 +186,7 @@ int main()
 			if ((ball.getPosition().y + ballDiameter >= player2.getPosition().y && ball.getPosition().y + ballDiameter <= player2.getPosition().y + player2.getSize().y) || ball.getPosition().y <= player2.getPosition().y + player2.getSize().y && ball.getPosition().y >= player2.getPosition().y)
 			{
 				ballVelX = (ballVelX + 1) * -1;
+				ball.setFillColor(sf::Color(255,0,0));
 				bounce.play();
 			}
 			else
