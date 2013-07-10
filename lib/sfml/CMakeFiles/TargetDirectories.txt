@@ -1,5 +1,0 @@
-/home/jose/local/renekton/lib/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-/home/jose/local/renekton/lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-/home/jose/local/renekton/lib/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir
-/home/jose/local/renekton/lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir
-/home/jose/local/renekton/lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir
