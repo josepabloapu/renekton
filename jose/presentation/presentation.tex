@@ -104,18 +104,9 @@
 
 \end{frame}
 %%*****************************************************************************
-\section{Why the use of a database?}
+\section{Implementation}
 \begin{frame}
 \frametitle{}
-\end{frame}
-%%*****************************************************************************
-\begin{frame}
-\frametitle{}
-\end{frame}
-%%*****************************************************************************
-\begin{frame}
-\frametitle{Perl Basics - Fields of Application}
-
 \end{frame}
 %%*****************************************************************************
 \begin{frame}
@@ -126,45 +117,30 @@
 \frametitle{}
 \end{frame}
 %%*****************************************************************************
-\section{Source Code}
+\begin{frame}
+\frametitle{}
+\end{frame}
+%%*****************************************************************************
+\begin{frame}
+\frametitle{}
+\end{frame}
+%%*****************************************************************************
+\section{Prototype}
 \begin{frame}[fragile]
-\frametitle{Programming Interface - Example}
+\frametitle{Pong}
 \begin{lstlisting}
-#!/usr/bin/perl
-
-open(GRADES, "grades") or die "Error: $!\n";
-
-while ($line = <GRADES>) {
-($student, $grade) = split(" ", $line);
-$grades{$student} .= $grade . " ";
-}
-
-foreach $student (sort keys %grades) {
-$scores = 0;
-$total = 0;
-@grades = split(" ", $grades{$student});
+c code here
 \end{lstlisting}
 \end{frame}
 %%*****************************************************************************
 \begin{frame}[fragile]
 \frametitle{Programming Interface - Example}
 \begin{lstlisting}
-foreach $grade (@grades) {
-$total += $grade;
-$scores++;
-}
-$average = $total / $scores;
-print "$student: $grades{$student}"
-print "\t\tAverage: $average\n";
-}
+c code here
 \end{lstlisting}
 \end{frame}
 %%*****************************************************************************
-\begin{frame}[fragile]
-\frametitle{Programming Interface - Example}
-\end{frame}
-%%*****************************************************************************
-\section{Conclusion}
+\section{Conclusion \& Questions}
 \begin{frame}
  \frametitle{Conclusion}
 \begin{itemize}
@@ -181,41 +157,11 @@ print "\t\tAverage: $average\n";
 \end{frame}
 %%*****************************************************************************
 \begin{frame}
- \frametitle{Reference - Books}
+ \frametitle{References}
 \begin{thebibliography}{10}
 \bibitem{label}Marco, M. Marco, J (2010) Escanenado la Infomática. Editorial UOC. 
-%%http://books.google.co.cr/books?id=svpzjkMpdiUC&pg=PA124&dq=paradigmas+programacion&hl=es-419&sa=X&ei=v2WWUbyANqLn0wHi-oDACA&redir_esc=y#v=onepage&q=paradigmas%20programacion&f=false}
-\bibitem{pascal}Berlanfa, R., García, P. 2000 Introdución a la programación con PASCAL Universidad Jaiume I, ed. III.
-%%http://books.google.co.cr/books?id=OZFmZfOkz94C&pg=PA49&dq=lenguaje+Pascal&hl=es-419&sa=X&ei=TuiaUa6mIs-30AHVm4CAAg&redir_esc=y#v=onepage&q=lenguaje%20Pascal&f=false
-\bibitem{actionscript}Curso de Flash CS4, aulaClic S.L.
-%%http://books.google.co.cr/books?id=86mUhf-GiEYC&dq=lenguaje+ActionScript&source=gbs_navlinks_s
 \end{thebibliography}
 \end{frame}
-
-\begin{frame}
- \frametitle{Reference - PDF's}
-\begin{thebibliography}{10}
-\bibitem{pearl}PEARL 90 - Language Report, 1998
-%%http://www.irt.uni-hannover.de/pearl/pub/report.pdf
-\bibitem{ruby}Guía de usuario de Ruby
-%%http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDEQFjAA&url=http%3A%2F%2Fes.tldp.org%2FManuales-LuCAS%2Fdoc-guia-usuario-ruby%2Fguia-usuario-ruby.pdf&ei=tuqaUeqfFeff0gH5m4GYDw&usg=AFQjCNG_rpdTQi6bymCwcQitvcwtcWHBAw&sig2=N-OTxrSSk4_WwGPt1vhUkA&bvm=bv.46751780,d.dmQ
-\bibitem{simula}El Lenguaje Simula, creado por Fco Jesús Fdez Burgos.
-%%http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CDkQFjAB&url=http%3A%2F%2Fwww.lcc.uma.es%2F~blas%2Fapuntes%2FPDAv%2Fp2005-2006%2FSIMULA1.pdf&ei=JeuaUYidKKXE0AGUkYCADw&usg=AFQjCNF9Vv6xinkTVBsM5RKrbIF7AUezJQ&sig2=S9c02kO0rJJfp5VCiwRNjQ&bvm=bv.46751780,d.dmQ
-\bibitem{miranda}An overview of Miranda, creado por David Turner. 1986
-%%http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDAQFjAA&url=http%3A%2F%2Fwww.cs.kent.ac.uk%2Fpeople%2Fstaff%2Fdat%2Fmiranda%2Foverview.pdf&ei=peuaUamzHaaR0QGjg4HoAw&usg=AFQjCNGDycvrntqTcEOiHb4B70C92ibEDg&sig2=FeEanDC2s_tYTbdMh_2QDA&bvm=bv.46751780,d.dmQ
-\bibitem{label}El Lenguaje Multi-paradigma.
-%%http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDEQFjAA&url=http%3A%2F%2Fwebs.uvigo.es%2Fjoselu%2Fmaterial%2FCurry_objetos.pdf&ei=YOyaUZnREJKP0QH78oGABw&usg=AFQjCNFxULggnO31OC1450LTpZFcFFdD2A&sig2=yPs7k7X5r0jHQctnA0tqoQ&bvm=bv.46751780,d.dmQ
-\end{thebibliography}
-\end{frame}
-
-\begin{frame}
- \frametitle{Reference - PDF's}
-\begin{thebibliography}{10}
-\bibitem{pearl2}\url{http://houston.pm.org}
-\bibitem{ruby2}\url{http://www.fincher.org/tips/Languages/Ruby/}
-\bibitem{simula2} \url{http://staff.um.edu.mt/jskl1/talk.html}
-\bibitem{miranda2} \url{http://miranda.org.uk/}
-\bibitem{mathematica2}\url{http://www.wolfram.com/mathematica/}\end{thebibliography}
-\end{frame}
+%%*****************************************************************************
 
 \end{document}

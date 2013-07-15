@@ -34,7 +34,7 @@ void move()
 int main()
 {
 	//window properties
-	sf::RenderWindow pong(sf::VideoMode(RENDERWIDTH, RENDERHEIGHT, 32), "GameName"/*, sf::Style::Fullscreen*/);
+	sf::RenderWindow pong(sf::VideoMode(RENDERWIDTH, RENDERHEIGHT, 32), "GameName", sf::Style::Fullscreen);
 	pong.setMouseCursorVisible(false);
 	pong.setFramerateLimit(60);
 
