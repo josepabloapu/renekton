@@ -3,6 +3,7 @@
 #include <sstream>
 #include <string>
 #include <iostream>
+#include <fstream>
 #define RENDERWIDTH 800
 #define RENDERHEIGHT 600
 
@@ -303,16 +304,21 @@ int main()
 		
 		while(player1Score + player2Score == 3)
 		{
-		pong.clear(sf::Color::Black);
-		pong.draw(score1);
-		pong.draw(timer1);
-		pong.draw(timer2);
-		pong.draw(score2);
-		pong.draw(gameover);
-		pong.display();
+			if(player1Score > player2Score)
+				timer1.setString(convertInt(time1 += 10000));
+			if(player1Score < player2Score)
+				timer2.setString(convertInt(time2 += 10000));
+		
+			pong.clear(sf::Color::Black);
+			pong.draw(score1);
+			pong.draw(timer1);
+			pong.draw(timer2);
+			pong.draw(score2);
+			pong.draw(gameover);
+			pong.display();
 
-		counter(3);
-		break;
+			counter(3);
+			break;
 		}
 		
 	}
@@ -327,6 +333,14 @@ int main()
 	std::cout << "Player2: " + scorePlayer2 << '\n';
 
 	
+	std::ofstream myfile ("highscores.txt", std::ofstream::in | std::ofstream::out | std::ofstream::app);
+  	if (myfile.is_open())
+  	{
+  		myfile << scorePlayer1 << std::endl;
+    		myfile << scorePlayer2 << std::endl;
+    		myfile.close();
+  	}
+  	else std::cout << "Unable to open file";
 	
 	return 0;
 } 

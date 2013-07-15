@@ -1,8 +1,8 @@
-#include "cv.h"
+#include "opencv/cv.h"
 
-#include "cxcore.h"
+#include "opencv/cxcore.h"
 
-#include "highgui.h"
+#include "opencv/highgui.h"
 
 #include "math.h"
 
