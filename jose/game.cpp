@@ -40,8 +40,8 @@ int main()
 
 	//music
 	sf::Music bgm;
-	bgm.openFromFile("multimedia/audio/background.wav");
-	bgm.setPitch(1.5);
+	bgm.openFromFile("multimedia/audio/musica.wav");
+	bgm.setPitch(1);
 	bgm.setLoop(true);
 	bgm.play();
 
