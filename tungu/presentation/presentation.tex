@@ -1,0 +1,175 @@
+\documentclass{beamer}
+\usepackage[british]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,hyperref,ucr_eie,url}
+\usepackage{mdframed}
+\usepackage{tikz}
+\usetikzlibrary{snakes}
+\usepackage{chronology}
+\usepackage{listings}
+\graphicspath{{../multimedia/images/}}
+\definecolor{shadecolor}{RGB}{250,250,250}		%%boxes color
+\lstset{
+		basicstyle=\ttfamily,
+		keywordstyle=\color{black},
+		commentstyle=\color{black},
+		stringstyle=\color{black},
+		tabsize=2,
+		backgroundcolor=\color{shadecolor}}
+
+% The title of the presentation:
+%  - first a short version which is visible at the bottom of each slide;
+%  - second the full title shown on the title slide;
+\title[Use of OpenCV to Send Commands]{7} 
+
+% Optional: a subtitle to be dispalyed on the title slide
+%\subtitle{}
+
+% The author(s) of the presentation:
+%  - again first a short version to be displayed at the bottom;
+%  - next the full list of authors, which may include contact information;
+\author[Jose Pablo Apú - B10407]{
+  Francisco Mata\\
+  Jose Pablo Apú Picado\\
+  Sebastian Ramírez Solano\\\medskip
+  %{\small \url{p.vullers@cs.ru.nl}} \\ 
+  %{\small \url{http://www.cs.ru.nl/~pim/}}}
+  }
+
+% The institute:
+%  - to start the name of the university as displayed on the top of each slide
+%    this can be adjusted such that you can also create a Dutch version
+%  - next the institute information as displayed on the title slide
+\institute[University of Costa Rica]{
+  Electrical Engineering School \\
+  IE-0117 - Programación Bajo Plataformas Abiertas}
+
+% Add a date and possibly the name of the event to the slides
+%  - again first a short version to be shown at the bottom of each slide
+%  - second the full date and event name for the title slide
+\date[\today]{
+  2nd Development Project \\
+  \today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Outline}
+  \tableofcontents
+\end{frame}
+
+% Section titles are shown in at the top of the slides with the current section 
+% highlighted. Note that the number of sections determines the size of the top 
+% bar, and hence the university name and logo. If you do not add any sections 
+% they will not be visible.
+%%*****************************************************************************
+\section{Introduction}
+
+\begin{frame}
+\frametitle{Objectives}
+\begin{itemize}
+\item Introduce another way to interact with machines, using opencv and c++.
+\item Implement computer vision to play simple games.  
+\end{itemize}
+\end{frame}
+%%*****************************************************************************
+\begin{frame}
+\frametitle{Justification}
+\begin{itemize}
+\item Make the eviroment more interactive. 
+\item Computer Vision is getting used by lots of people.  
+\end{itemize}
+\end{frame}
+%%*****************************************************************************
+\section{Requirements}
+
+\begin{frame}
+\frametitle{Hardware}
+\includegraphics[scale=0.4]{requirements_hardware.jpg}
+\end{frame}
+%%*****************************************************************************
+\begin{frame}
+\frametitle{Software}
+\begin{center}
+\includegraphics[scale=0.3]{requirements_libs.jpg}
+\end{center}
+\end{frame}
+%%*****************************************************************************
+\section{Computer Vision}
+
+\begin{frame}
+\frametitle{Main concepts}
+\end{frame}
+%%*****************************************************************************
+\begin{frame}
+\frametitle{Typical tasks of computer vision}
+
+\end{frame}
+%%*****************************************************************************
+\section{Implementation}
+\begin{frame}
+\frametitle{Example 1}
+Play pong on EIE
+\end{frame}
+%%*****************************************************************************
+\begin{frame}
+\frametitle{Example 2}
+Interactive banners on busstops
+\end{frame}
+%%*****************************************************************************
+\begin{frame}
+\frametitle{}
+\end{frame}
+%%*****************************************************************************
+\begin{frame}
+\frametitle{}
+\end{frame}cd 
+%%*****************************************************************************
+\begin{frame}
+\frametitle{}
+\end{frame}
+%%*****************************************************************************
+\section{Prototype}
+\begin{frame}[fragile]
+\frametitle{Pong}
+\begin{lstlisting}
+c code here
+\end{lstlisting}
+\end{frame}
+%%*****************************************************************************
+\begin{frame}[fragile]
+\frametitle{Programming Interface - Example}
+\begin{lstlisting}
+c code here
+\end{lstlisting}
+\end{frame}
+%%*****************************************************************************
+\section{Conclusion \& Questions}
+\begin{frame}
+ \frametitle{Conclusion}
+\begin{itemize}
+\item Excelent for Text Processing
+\item It is Pearl better than the other ones?
+%\item Documentation
+\end{itemize}
+%Moose
+%fork
+\end{frame}
+%%*****************************************************************************
+\begin{frame}
+ \frametitle{Questions?}
+\end{frame}
+%%*****************************************************************************
+\begin{frame}
+ \frametitle{References}
+\begin{thebibliography}{10}
+\bibitem{label}Marco, M. Marco, J (2010) Escanenado la Infomática. Editorial UOC. 
+\end{thebibliography}
+\end{frame}
+%%*****************************************************************************
+
+\end{document}

@@ -22,14 +22,7 @@ void counter(int seconds)
   
 }
     
-void move()
-{
-	int countDown;
-	for (countDown = 15 ; countDown > 0; countDown--)
-	{
-		counter(1);
-	}
-}
+
 
 int main()
 {
